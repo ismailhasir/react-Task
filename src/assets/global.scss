@@ -1,0 +1,74 @@
+body {
+  font-family: Roboto;
+}
+
+.container {
+  padding: 24px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container,
+.best-offers-container {
+  .offer-box-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+    .left-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .firm-name {
+        font-size: 18px;
+      }
+      .firm-logo {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .firm-description {
+        width: 50%;
+        text-align: end;
+      }
+    }
+
+    .price-container {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      .price {
+        font-size: 28px;
+        // text-align: end;
+      }
+    }
+  }
+  .fetch-more-button {
+    margin-top: 16px;
+  }
+}
+
+.popover-content {
+  background-color: lightgray;
+  padding: 10px;
+  .popover-title {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+  .popover-text {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}

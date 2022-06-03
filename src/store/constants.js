@@ -1,0 +1,2 @@
+export const SET_OFFER_COUNT = "SET_OFFER_COUNT";
+export const SET_OFFER_DATA = "SET_OFFER_DATA";
