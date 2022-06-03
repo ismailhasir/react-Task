@@ -1,5 +1,5 @@
 # react-Task-
-Kullanilan teknolojiler:
+Technologies:
 - React
 - SASS
 - Redux
