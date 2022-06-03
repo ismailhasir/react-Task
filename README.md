@@ -1,4 +1,4 @@
-# react-Task-
+# react-Task
 Technologies:
 - React
 - SASS
